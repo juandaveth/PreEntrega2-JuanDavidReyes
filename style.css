@@ -45,9 +45,21 @@ header {
     gap: 2rem;
 }
 
-.toggle_btn {
+.navbar .toggle_btn {
     color: orange;
     font-size: 2rem;
     cursor: pointer;
-    display: none ;
+    display: none;
+}
+
+/* Adding responsive design */
+
+/* This mediaquery will hide the navbar links when the viewport is less than 992px */
+@media (max-width: 992px) {
+    .navbar .links {
+        display: none;
+    }
+    .navbar .toggle_btn {
+        display: block;
+    }
 }
