@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    padding: 0 2rem;;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.toggle_btn {
+    color: orange;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none ;
+}
