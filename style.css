@@ -59,10 +59,8 @@ header {
     right: 2rem;
     top: 50px;
     width: 300px;
-    border-style: solid;
-    border-color: red;
     border-radius: 10px;
-    background:rgba(35, 176, 181, 0.1);
+    background:rgba(35, 176, 181);
     overflow: hidden;
 }
 
