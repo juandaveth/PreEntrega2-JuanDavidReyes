@@ -67,6 +67,12 @@ header {
 }
 
 /* Adding responsive design */
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* This mediaquery will hide the navbar links and show toggle_btn when the viewport is less than 992px */
 @media (max-width: 992px) {
