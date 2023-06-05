@@ -108,3 +108,14 @@ header {
 .intro-title {
     color: var(--offwhite);
 }
+
+/* COMUNIDAD SECTION */
+.comunidad {
+    border: 1px solid white;
+    background-color: var(--azuloscuro);
+}
+
+.grupo-estudio_card {
+    border: 1px solid green;
+    margin: 2rem;
+}
