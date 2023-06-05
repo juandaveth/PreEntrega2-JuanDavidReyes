@@ -5,6 +5,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+    --azulclaro: #76C5DE;
+    --offwhite: #FCFFED;
+    --azuloscuro: #152F3E;
+  }
+
 li {
     list-style: none;
 }
@@ -90,4 +96,15 @@ header {
     .dropdown_menu {
         display: block;
     }
+}
+
+/* INTRO SECTION */
+
+.intro {
+    border: 1px solid black;
+    background-color: var(--azulclaro);
+}
+
+.intro-title {
+    color: var(--offwhite);
 }
