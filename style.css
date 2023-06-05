@@ -119,3 +119,26 @@ header {
     border: 1px solid green;
     margin: 2rem;
 }
+
+/* PODCAST SECTION */
+
+.podcast {
+    border: 1px solid orange;
+    background-color: var(--offwhite);
+}
+
+.episode_card {
+    border: 1px solid greenyellow;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: #191919;
+
+}
+
+h4.episode-title {
+    color: #FFFFFF;
+}
+
+p.episode-length {
+    color: #B2B1B2;
+}
