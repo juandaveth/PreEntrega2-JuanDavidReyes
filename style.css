@@ -100,12 +100,12 @@ header {
 
 /* INTRO SECTION */
 
-.intro {
+.consulta {
     border: 1px solid black;
     background-color: var(--azulclaro);
 }
 
-.intro-title {
+.consulta-title {
     color: var(--offwhite);
 }
 
