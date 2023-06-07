@@ -113,11 +113,14 @@ header {
 .comunidad {
     border: 1px solid white;
     background-color: var(--azuloscuro);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 }
 
-.grupo-estudio_card {
+.grupo_card {
     border: 1px solid green;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 /* PODCAST SECTION */
