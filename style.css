@@ -51,7 +51,7 @@ header {
     gap: 2rem;
 }
 
-.navbar .toggle_btn {
+.navbar #toggle_btn {
     color: orange;
     font-size: 2rem;
     cursor: pointer;
@@ -72,7 +72,7 @@ header {
     overflow: hidden;
 }
 
-.dropdown_menu.open {
+.dropdown_menu .open {
     /* but I don't get why this works */
     height: 240px;
 }
@@ -90,11 +90,14 @@ header {
     .navbar .links {
         display: none;
     }
-    .navbar .toggle_btn {
+    .navbar #toggle_btn {
         display: block;
     }
     .dropdown_menu {
         display: block;
+    }
+    .dropdown_menu.open {
+        display: none;
     }
 }
 
