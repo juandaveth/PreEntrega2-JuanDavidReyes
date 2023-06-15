@@ -110,3 +110,8 @@ header {
     background-color: var(--offwhite);
 }
 
+/* VAKI SECTION */
+.vaki {
+    border: 1px solid red;
+    background-color: var(--offwhite);
+}
