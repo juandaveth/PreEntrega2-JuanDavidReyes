@@ -30,11 +30,17 @@
                     var numberOfClicks = 0;
                     const toggle = () => {
                         const dropdownMenu = document.getElementById('dropdown_menu');
+                        const iconCollection = document.getElementsByClassName('fa-bars');
+                        const icon = iconCollection[0];
+                        const closedIconCollection = document.getElementsByClassName('fa-close');
+                        const closedIcon = closedIconCollection[0];
                         numberOfClicks = numberOfClicks + 1;
                         if (numberOfClicks % 2 == 0) {
                             dropdownMenu.style.setProperty('display', 'none');
+                            closedIcon.classList.replace('fa-close', 'fa-bars');
                         } else {
                             dropdownMenu.style.setProperty('display', 'block');
+                            icon.classList.replace('fa-bars', 'fa-close');
                         }
                     }
                     const toggleBtn = document.getElementById('toggle_btn');
