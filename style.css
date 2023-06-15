@@ -107,7 +107,11 @@ header {
 
 .podcast {
     border: 1px solid orange;
-    background-color: var(--offwhite);
+    background-color: var(--azuloscuro);
+}
+
+.heading {
+    color: var(--offwhite)
 }
 
 /* VAKI SECTION */
