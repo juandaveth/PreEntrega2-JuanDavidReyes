@@ -29,15 +29,15 @@
                 <script>
                     var numberOfClicks = 0;
                     const toggle = () => {
-                        const dropdownMenu = document.getElementById("dropdown_menu");
+                        const dropdownMenu = document.getElementById('dropdown_menu');
                         numberOfClicks = numberOfClicks + 1;
                         if (numberOfClicks % 2 == 0) {
-                            dropdownMenu.style.setProperty("display", "none");
+                            dropdownMenu.style.setProperty('display', 'none');
                         } else {
-                            dropdownMenu.style.setProperty("display", "block");
+                            dropdownMenu.style.setProperty('display', 'block');
                         }
                     }
-                    const toggleBtn = document.getElementById("toggle_btn");
+                    const toggleBtn = document.getElementById('toggle_btn');
                     toggleBtn.onclick = toggle;
 
                 </script>
