@@ -97,6 +97,10 @@ header {
 .consulta {
     border: 1px solid black;
     background-color: var(--azulclaro);
+    background-image: url(/assets/home_consulta_bg.png);
+    height: 661px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .consulta-title {
