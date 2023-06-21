@@ -101,10 +101,23 @@ header {
     height: 661px;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.consulta-title {
+.consulta-title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
     color: var(--offwhite);
+}
+
+.sub-title {
+    color: var(--azuloscuro)
 }
 
 /* PODCAST SECTION */
