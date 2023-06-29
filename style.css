@@ -14,6 +14,11 @@ html {
     --azuloscuro: #152F3E;
   }
 
+@font-face {
+    font-family: AktivGrotesk;
+    src: url(./fonts/AktivGroteskCd_XBold.ttf);
+}
+
 li {
     list-style: none;
 }
