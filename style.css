@@ -38,9 +38,6 @@ a:hover {
 header {
     position: relative;
     padding: 0 2rem;
-}
-
-.navbar {
     width: 100%;
     height: 60px;
     max-width: 1200px;
@@ -55,16 +52,16 @@ header {
     color: var(--azuloscuro);
 }
 
-.navbar a {
+header a {
     font-size: 1.5rem;
 }
 
-.navbar .links {
+header .links {
     display: flex;
     gap: 2rem;
 }
 
-.navbar #toggle_btn {
+header #toggle_btn {
     color: var(--azuloscuro);
     font-size: 2rem;
     cursor: pointer;
@@ -92,12 +89,12 @@ header {
     justify-content: center;
 }
 
-/* This mediaquery will hide the navbar links and show toggle_btn when the viewport is less than 992px */
+/* This mediaquery will hide the links and show toggle_btn when the viewport is less than 992px */
 @media (max-width: 992px) {
-    .navbar .links {
+    header .links {
         display: none;
     }
-    .navbar #toggle_btn {
+    header #toggle_btn {
         display: block;
     }
     #dropdown_menu {
