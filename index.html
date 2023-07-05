@@ -17,44 +17,41 @@
 <body>
     <header>
         <h1 class="logo">EN CASO DE CÁNCER</h1>
-            <ul class="links">
-                <li><a href="https://wa.link/9wdr1z" target="_blank">Consulta</a></li>
-                <li><a href="https://www.instagram.com/encasodecancer/" target="_blank">Comunidad</a></li>
-                <li><a href="https://open.spotify.com/show/6XfSNjTdLzyTugC1OMAIqL" target="_blank">Podcast</a></li>
-                <li><a href="https://medium.com/onconectados" target="_blank">Blog</a></li>
-            </ul>
-            <div id="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-                <script>
-                    var numberOfClicks = 0;
-                    const toggle = () => {
-                        const dropdownMenu = document.getElementById('dropdown_menu');
-                        const iconCollection = document.getElementsByClassName('fa-bars');
-                        const icon = iconCollection[0];
-                        const closedIconCollection = document.getElementsByClassName('fa-close');
-                        const closedIcon = closedIconCollection[0];
-                        numberOfClicks = numberOfClicks + 1;
-                        if (numberOfClicks % 2 == 0) {
-                            dropdownMenu.style.setProperty('display', 'none');
-                            closedIcon.classList.replace('fa-close', 'fa-bars');
-                        } else {
-                            dropdownMenu.style.setProperty('display', 'block');
-                            icon.classList.replace('fa-bars', 'fa-close');
-                        }
+        <ul class="links">
+            <li><a href="https://wa.link/9wdr1z" target="_blank">Consulta</a></li>
+            <li><a href="https://www.instagram.com/encasodecancer/" target="_blank">Comunidad</a></li>
+            <li><a href="https://open.spotify.com/show/6XfSNjTdLzyTugC1OMAIqL" target="_blank">Podcast</a></li>
+            <li><a href="https://medium.com/onconectados" target="_blank">Blog</a></li>
+        </ul>
+        <div id="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+            <script>
+                var numberOfClicks = 0;
+                const toggle = () => {
+                    const dropdownMenu = document.getElementById('dropdown_menu');
+                    const iconCollection = document.getElementsByClassName('fa-bars');
+                    const icon = iconCollection[0];
+                    const closedIconCollection = document.getElementsByClassName('fa-close');
+                    const closedIcon = closedIconCollection[0];
+                    numberOfClicks = numberOfClicks + 1;
+                    if (numberOfClicks % 2 == 0) {
+                        dropdownMenu.style.setProperty('display', 'none');
+                        closedIcon.classList.replace('fa-close', 'fa-bars');
+                    } else {
+                        dropdownMenu.style.setProperty('display', 'block');
+                        icon.classList.replace('fa-bars', 'fa-close');
                     }
-                    const toggleBtn = document.getElementById('toggle_btn');
-                    toggleBtn.onclick = toggle;
-
-                </script>
-            </div>
-
+                }
+                const toggleBtn = document.getElementById('toggle_btn');
+                toggleBtn.onclick = toggle;
+            </script>
+        </div>
         <div id="dropdown_menu">
             <li><a href="https://wa.link/9wdr1z" target="_blank">Consulta</a></li>
             <li><a href="https://www.instagram.com/encasodecancer/" target="_blank">Comunidad</a></li>
             <li><a href="https://open.spotify.com/show/6XfSNjTdLzyTugC1OMAIqL" target="_blank">Podcast</a></li>
             <li><a href="https://medium.com/onconectados" target="_blank">Blog</a></li>
         </div>
-
     </header>
     <div class="container">
         <!-- CONSULTA section of ECDC: what's the project about -->
